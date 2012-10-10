@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InitialViewController.h
 //  ViewDeckStoryboardExample
 //
 //  Created by Simon Rice on 10/10/2012.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IIViewDeckController.h"
 
-@interface ViewController : UIViewController
+@interface InitialViewController : IIViewDeckController
 
 @end

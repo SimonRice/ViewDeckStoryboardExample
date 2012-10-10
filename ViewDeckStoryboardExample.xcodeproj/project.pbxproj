@@ -17,14 +17,20 @@
 		D607C8F016257E4400AACC1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D607C8EF16257E4400AACC1A /* Default@2x.png */; };
 		D607C8F216257E4400AACC1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D607C8F116257E4400AACC1A /* Default-568h@2x.png */; };
 		D607C8F516257E4400AACC1A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D607C8F316257E4400AACC1A /* MainStoryboard.storyboard */; };
-		D607C8F816257E4400AACC1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D607C8F716257E4400AACC1A /* ViewController.m */; };
+		D607C90216257EC900AACC1A /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D607C8FF16257EC900AACC1A /* InitialViewController.m */; };
+		D607C90316257EC900AACC1A /* MiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D607C90116257EC900AACC1A /* MiddleViewController.m */; };
+		D607C90D16257F3E00AACC1A /* ButtonMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = D607C90416257EEB00AACC1A /* ButtonMenu.png */; };
+		D607C90F16257F4000AACC1A /* ButtonMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D607C90516257EEB00AACC1A /* ButtonMenu@2x.png */; };
+		F9973899F3B54F60806C036A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B488411C1C4518AC205AF7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22B488411C1C4518AC205AF7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8572100844B042F185BE8961 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		D607C8D716257E4400AACC1A /* ViewDeckStoryboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewDeckStoryboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D607C8DB16257E4400AACC1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D607C8DD16257E4400AACC1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D607C8DF16257E4400AACC1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D607C8DB16257E4400AACC1A /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D607C8DD16257E4400AACC1A /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D607C8DF16257E4400AACC1A /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D607C8E316257E4400AACC1A /* ViewDeckStoryboardExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewDeckStoryboardExample-Info.plist"; sourceTree = "<group>"; };
 		D607C8E516257E4400AACC1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D607C8E716257E4400AACC1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,8 +41,12 @@
 		D607C8EF16257E4400AACC1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D607C8F116257E4400AACC1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D607C8F416257E4400AACC1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D607C8F616257E4400AACC1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D607C8F716257E4400AACC1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D607C8FE16257EC900AACC1A /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		D607C8FF16257EC900AACC1A /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		D607C90016257EC900AACC1A /* MiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleViewController.h; sourceTree = "<group>"; };
+		D607C90116257EC900AACC1A /* MiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleViewController.m; sourceTree = "<group>"; };
+		D607C90416257EEB00AACC1A /* ButtonMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonMenu.png; sourceTree = "<group>"; };
+		D607C90516257EEB00AACC1A /* ButtonMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonMenu@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 				D607C8DC16257E4400AACC1A /* UIKit.framework in Frameworks */,
 				D607C8DE16257E4400AACC1A /* Foundation.framework in Frameworks */,
 				D607C8E016257E4400AACC1A /* CoreGraphics.framework in Frameworks */,
+				F9973899F3B54F60806C036A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +67,12 @@
 		D607C8CC16257E4400AACC1A = {
 			isa = PBXGroup;
 			children = (
+				D607C90416257EEB00AACC1A /* ButtonMenu.png */,
+				D607C90516257EEB00AACC1A /* ButtonMenu@2x.png */,
 				D607C8E116257E4400AACC1A /* ViewDeckStoryboardExample */,
 				D607C8DA16257E4400AACC1A /* Frameworks */,
 				D607C8D816257E4400AACC1A /* Products */,
+				8572100844B042F185BE8961 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +90,7 @@
 				D607C8DB16257E4400AACC1A /* UIKit.framework */,
 				D607C8DD16257E4400AACC1A /* Foundation.framework */,
 				D607C8DF16257E4400AACC1A /* CoreGraphics.framework */,
+				22B488411C1C4518AC205AF7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,8 +101,10 @@
 				D607C8EA16257E4400AACC1A /* AppDelegate.h */,
 				D607C8EB16257E4400AACC1A /* AppDelegate.m */,
 				D607C8F316257E4400AACC1A /* MainStoryboard.storyboard */,
-				D607C8F616257E4400AACC1A /* ViewController.h */,
-				D607C8F716257E4400AACC1A /* ViewController.m */,
+				D607C8FE16257EC900AACC1A /* InitialViewController.h */,
+				D607C8FF16257EC900AACC1A /* InitialViewController.m */,
+				D607C90016257EC900AACC1A /* MiddleViewController.h */,
+				D607C90116257EC900AACC1A /* MiddleViewController.m */,
 				D607C8E216257E4400AACC1A /* Supporting Files */,
 			);
 			path = ViewDeckStoryboardExample;
@@ -117,6 +134,7 @@
 				D607C8D316257E4400AACC1A /* Sources */,
 				D607C8D416257E4400AACC1A /* Frameworks */,
 				D607C8D516257E4400AACC1A /* Resources */,
+				59C7E771D4064B7787A7B1A8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,10 +181,29 @@
 				D607C8F016257E4400AACC1A /* Default@2x.png in Resources */,
 				D607C8F216257E4400AACC1A /* Default-568h@2x.png in Resources */,
 				D607C8F516257E4400AACC1A /* MainStoryboard.storyboard in Resources */,
+				D607C90D16257F3E00AACC1A /* ButtonMenu.png in Resources */,
+				D607C90F16257F4000AACC1A /* ButtonMenu@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59C7E771D4064B7787A7B1A8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D607C8D316257E4400AACC1A /* Sources */ = {
@@ -175,7 +212,8 @@
 			files = (
 				D607C8E816257E4400AACC1A /* main.m in Sources */,
 				D607C8EC16257E4400AACC1A /* AppDelegate.m in Sources */,
-				D607C8F816257E4400AACC1A /* ViewController.m in Sources */,
+				D607C90216257EC900AACC1A /* InitialViewController.m in Sources */,
+				D607C90316257EC900AACC1A /* MiddleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +291,7 @@
 		};
 		D607C8FC16257E4400AACC1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8572100844B042F185BE8961 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewDeckStoryboardExample/ViewDeckStoryboardExample-Prefix.pch";
@@ -264,6 +303,7 @@
 		};
 		D607C8FD16257E4400AACC1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8572100844B042F185BE8961 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewDeckStoryboardExample/ViewDeckStoryboardExample-Prefix.pch";
@@ -292,6 +332,7 @@
 				D607C8FD16257E4400AACC1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
