@@ -1,10 +1,13 @@
-//
-//  MiddleViewController.m
-//  ViewDeckStoryboardExample
-//
-//  Created by Simon Rice on 10/10/2012.
-//  Copyright (c) 2012 Simon Rice. All rights reserved.
-//
+/*
+ * ----------------------------------------------------------------------------
+ * "THE BOOZE-WARE LICENSE"
+ * Simon Rice wrote this file. As long as you retain this notice you
+ * can do whatever you want with this stuff. If we meet some day, and you think
+ * this stuff is worth it, you can buy me an alcoholic beverage in return.
+ *
+ * Simon Rice
+ * ----------------------------------------------------------------------------
+ */
 
 #import "MiddleViewController.h"
 #import <ViewDeck/IIViewDeckController.h>

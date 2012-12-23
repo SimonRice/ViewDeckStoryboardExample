@@ -1,4 +1,4 @@
-# ViewDeckStoryboardExample
+# ViewDeck Storyboard Example
 
 This is a very, very simple example of showing how to integrate [ViewDeck](https://github.com/Inferis/ViewDeck) into an Storyboard project on XCode.  
 
@@ -12,11 +12,23 @@ ViewDeck itself isn't included in this project & therefore opening the XCode pro
 
 The easiest way by far of getting this project to compile is by using [CocoaPods](http://cocoapods.org).  Once you've got that up & running, all you need to do is type `pod install` on your terminal & open up the generated `ViewDeckStoryboardExample.xcworkspace` file, as instructed.
 
-If for any reason you don't wish to use CocoaPods, create an ARC-enabled project with a copy of all of [ViewDeck's](https://github.com/Inferis/ViewDeck) `IIViewDeckController.{m,h}` & all of the non-project files from this repository.  You also need to include `QuartzCore.framework` (at Project-> Build Phases-> Link Binary With Libaries on XCode) in order for this method tp work.
+If for any reason you don't wish to use CocoaPods, create an ARC-enabled project with a copy of all of [ViewDeck's](https://github.com/Inferis/ViewDeck) `IIViewDeckController.{m,h}` & all of the non-project files from this repository.  You also need to include `QuartzCore.framework` (at Project-> Build Phases-> Link Binary With Libraries on XCode) in order for this method to work.
+
+### Why is the left view controller in a navigation stack?
+
+It is a workaround to keep the status bar tinted on iOS 6.  The navigation bar has its alpha set to 0 so it isn't visible, & it is hidden on the view controller on the storyboard so it doesn't get in the way of laying out your view controller.  [See this ViewDeck issue for more information](https://github.com/Inferis/ViewDeck/issues/191).
 
 ## Contributions
 
 As everyone says, GitHub is about social coding - I didn't just choose to use it because of my love of git as a version control system.  Please do chip in & help make this even better.
+
+## License
+
+This example is provided under the terms of my very permissive Boozeware license (since I often prefer to have white wine over beer):
+
+> As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me an alcoholic beverage in return.
+
+See the `LICENSE` file or any class or header for the full details.
 
 ## Credits
 

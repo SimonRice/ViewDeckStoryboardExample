@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ywc-ml-4Kh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ywc-ml-4Kh">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -68,7 +68,7 @@
         <!--View Controller-->
         <scene sceneID="Gl0-Dl-hiU">
             <objects>
-                <viewController storyboardIdentifier="leftViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dfV-1i-bH5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="" id="dfV-1i-bH5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0AW-BN-jbj">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -86,10 +86,26 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DRK-Ef-gce"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sw7-p3-kz0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="966" y="790"/>
+            <point key="canvasLocation" x="1330" y="790"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jaX-e0-eIM">
+            <objects>
+                <navigationController storyboardIdentifier="leftViewController" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="p3f-KI-UPd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="IGT-9A-kNj">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dfV-1i-bH5" kind="relationship" relationship="rootViewController" id="pgv-Dk-aPj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1pk-Gk-xAk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="923" y="790"/>
         </scene>
     </scenes>
     <resources>
