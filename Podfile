@@ -1,3 +1,3 @@
 platform :ios
 
-pod "ViewDeck",  "~>1.4.2"
+pod "ViewDeck",  "~>2.2.2"
