@@ -14,9 +14,23 @@ The easiest way by far of getting this project to compile is by using [CocoaPods
 
 If for any reason you don't wish to use CocoaPods, create an ARC-enabled project with a copy of all of [ViewDeck's](https://github.com/Inferis/ViewDeck) `IIViewDeckController.{m,h}` & all of the non-project files from this repository.  You also need to include `QuartzCore.framework` (at Project-> Build Phases-> Link Binary With Libraries on XCode) in order for this method to work.
 
+## Infrequently Asked Questions
+
 ### Why is the left view controller in a navigation stack?
 
 It is a workaround to keep the status bar tinted on iOS 6.  The navigation bar has its alpha set to 0 so it isn't visible, & it is hidden on the view controller on the storyboard so it doesn't get in the way of laying out your view controller.  [See this ViewDeck issue for more information](https://github.com/Inferis/ViewDeck/issues/191).
+
+### Why can't I the left view controller perform a segue from the middle view controller?
+
+Because the left view controller is in a navigation stack, ViewDeck's `leftController` property is the `UINavigationController` container rather than the visible controller.
+
+The workaround is easy enough:
+
+```objc
+[((UINavigationController*)self.viewDeckController.leftController).visibleViewController performSegueWithIdentifier:@"segue_id" sender:self];
+```
+
+Note that this doesn't apply if you perform a segue on the left view controller from itself.   [See this ViewDeck issue for more information](https://github.com/Inferis/ViewDeck/issues/238).
 
 ## Contributions
 
