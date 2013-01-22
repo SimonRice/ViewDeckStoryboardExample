@@ -20,7 +20,7 @@ If for any reason you don't wish to use CocoaPods, create an ARC-enabled project
 
 It is a workaround to keep the status bar tinted on iOS 6.  The navigation bar has its alpha set to 0 so it isn't visible, & it is hidden on the view controller on the storyboard so it doesn't get in the way of laying out your view controller.  [See this ViewDeck issue for more information](https://github.com/Inferis/ViewDeck/issues/191).
 
-### Why can't I the left view controller perform a segue from the middle view controller?
+### Why can't the left view controller perform a segue from the middle view controller?
 
 Because the left view controller is in a navigation stack, ViewDeck's `leftController` property is the `UINavigationController` container rather than the visible controller.
 
