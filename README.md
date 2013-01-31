@@ -4,7 +4,7 @@ This is a very, very simple example of showing how to integrate [ViewDeck](https
 
 It consists of a "Middle" view controller & a "Left" view controller, very similar to Facebook for iOS v4.x & v5.0.  With some modifications, it's possible to have a "Right" view controller as well.  The screenshots below show how it should look.
 
-![Left hidden](/simonrice/ViewDeckStoryboardExample/raw/master/Doc/lefthidden.png) ![Left revealed](/simonrice/ViewDeckStoryboardExample/raw/master/Doc/leftrevealed.png)
+![Left hidden](Doc/lefthidden.png) &nbsp; ![Left revealed](Doc/leftrevealed.png)
 
 ## Compiling
 
