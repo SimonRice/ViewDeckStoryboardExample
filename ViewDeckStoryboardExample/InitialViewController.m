@@ -22,13 +22,15 @@
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-    self = [super initWithCenterViewController:[storyboard instantiateViewControllerWithIdentifier:@"middleViewController"]
+    self = [super initWithCenterViewController:[storyboard instantiateViewControllerWithIdentifier:@"firstViewController"]
                             leftViewController:[storyboard instantiateViewControllerWithIdentifier:@"leftViewController"]];
     if (self) {
-        // Add any extra init code here
+        
+        // Put your settings for ViewDeck here
+        self.openSlideAnimationDuration = 0.3f; // In seconds
+        self.closeSlideAnimationDuration = 0.3f;
     }
     return self;
 }
-
 
 @end
